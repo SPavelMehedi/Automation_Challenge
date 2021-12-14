@@ -90,7 +90,7 @@ The pom.xml in the root of a Maven project file stores the dependencies for a pr
 
 How to Run the Project from eclipes:
 
-From Eclipse
+
 Import this project into Eclipse
 Right click the project, then select Run as Maven Clean, Maven Install then the tests will start running.
 Following the above steps executes the configurations found in the testing.xml file by default.
