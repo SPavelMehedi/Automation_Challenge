@@ -1,5 +1,4 @@
 # Automation_Challenge
-Virtual-Facility-Coding-Challenge Project.
 
 Hi Team, Please read the following Instructions below and you will be able to run it.
 
