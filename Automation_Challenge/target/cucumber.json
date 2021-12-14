@@ -1,0 +1,84 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T23:57:23.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5001174400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.suiteSetup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Users able to open viewmyconsult webpage \u0026 verify the homepage title",
+        "description": "",
+        "id": "users-able-to-open-viewmyconsult-webpage;users-able-to-open-viewmyconsult-webpage-\u0026-verify-the-homepage-title",
+        "after": [
+          {
+            "result": {
+              "duration": 360793600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2369798400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User can open chrome browser \u0026 enter the url",
+            "match": {
+              "location": "com.stepdefinations.LoginStepDef.user_can_open_chrome_browser_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13991700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User able to verify the homepage title",
+            "match": {
+              "location": "com.stepdefinations.LoginStepDef.user_able_to_verify_the_homepage_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Users able to open viewmyconsult webpage",
+    "description": "",
+    "id": "users-able-to-open-viewmyconsult-webpage",
+    "keyword": "Feature",
+    "uri": "file:Fetatures/loginFunction.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
